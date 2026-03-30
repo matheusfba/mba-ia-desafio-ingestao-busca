@@ -1,0 +1,6 @@
+Acessar o banco no docker
+psql -U postgres -d rag
+
+queries pra validar:
+SELECT * FROM langchain_pg_collection;
+SELECT COUNT(*) FROM langchain_pg_embedding;
