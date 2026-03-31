@@ -41,7 +41,7 @@ def ingest_pdf():
 
     print(f"Total de chunks: {len(chunks)}")
 
-    BATCH_SIZE = 15
+    BATCH_SIZE = 10
     SLEEP_SECONDS = 5
 
     for i, chunk_batch in enumerate(batch(chunks, BATCH_SIZE)):
